@@ -1,6 +1,7 @@
 html {
     text-align: center;
     font-family: monospace;
+    background-color: rgba(169, 235, 255, 0.445);
 }
 
 .right {
@@ -8,21 +9,23 @@ html {
 }
 
 .left {
+    margin-top: 30px;
     display: inline-block;
+    background-color: rgba(126, 126, 141, 0.568);
+    border: 5px solid black;
 }
 
 .square {
-    background-color: white;
+    background-color: rgba(238, 238, 238, 0.322);
     border: 1px solid black;
 }
 
 .color {
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(66, 66, 66);
     border: 1px solid black;
 }
 
 .gridContainer {
-    background-color: rgba(199, 199, 199, 0.5);
     margin-top: 25px;
     margin-right: 40px;
     display: inline-grid;
@@ -32,4 +35,17 @@ html {
     border-radius: 5px;
     height: 600px;
     width: 600px;
+}
+
+#quantity {
+    background-color: rgba(176, 231, 248, 0.363);
+    margin-bottom: 10px;
+}
+
+label {
+    margin-left: 10px;
+}
+
+.reset {
+    margin-right: 10px;
 }
