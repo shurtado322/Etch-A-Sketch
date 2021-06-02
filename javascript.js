@@ -25,9 +25,10 @@ updateGrid = () => {
     }
 };
 
-const square = document.querySelector("div");
+const square = document.querySelector(".gridContainer");
 square.addEventListener("mouseover", function(event) {
-    event.target.classList.replace("square", "color");
+    let randomColor = Math.floor(Math.random()*16777215).toString(16);
+    event.target.style.backgroundColor = "#" + randomColor;
 });
 
 userInput.addEventListener("change", updateGrid);
