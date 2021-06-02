@@ -23,7 +23,6 @@ updateGrid = () => {
         div.classList.add("square");
         grid.appendChild(div);
     }
-    console.log(userInput.value);
 };
 
 const square = document.querySelector("div");
